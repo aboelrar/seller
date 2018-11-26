@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/goToApplicationDetails"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_140sdp"
+    android:gravity="right"
+    android:weightSum="1">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_weight=".65"
+                android:paddingRight="@dimen/_20sdp"
+                android:layout_width="0dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_14ssp"
+                    android:id="@+id/productttle"
+                    android:textColor="@android:color/black"
+                    android:text="حزاء اديداس"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_14ssp"
+                    android:id="@+id/productprice"
+                    android:textColor="@android:color/black"
+                    android:text="14 ريال"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_marginTop="@dimen/_5sdp"
+
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4"
+                        android:id="@+id/quantity"
+                        android:textSize="@dimen/_13ssp"
+                        android:layout_marginRight="@dimen/_3sdp"
+                        android:textColor="@color/red"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="الكميه:"
+                        android:textColor="@android:color/black"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:layout_weight=".35"
+                android:layout_width="0dp"
+                android:scaleType="fitXY"
+                android:id="@+id/productimg"
+                android:src="@drawable/shoess"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

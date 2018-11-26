@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">seller</string>
+    <string name="supermarket">Supermarket</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="phonenum">رقم الهاتف</string>
+    <string name="password">كلمه السر</string>
+    <string name="home">الرئيسيه</string>
+    <string name="Applications">الطلبات</string>
+    <string name="settings">الاعدادات</string>
+    <string name="search">ابحث عن منتج</string>
+    <string name="contactus">تواصل معنا</string>
+    <string name="problems">للاقتراحات والشكاوى</string>
+    <string name="num">01234567891</string>
+    <string name="mail">aa@gmail.com</string>
+    <string name="changelowestprice">تغيير الحد الأدنى</string>
+    <string name="changerecevingtime">تغيير وقت التسليم</string>
+    <string name="changedeleviry">تغيير رسوم التوصيل</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="back">استرجاع</string>
+    <string name="done">تم تنفيذ الطلب</string>
+    <string name="openmap">افتح الخريطه</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
